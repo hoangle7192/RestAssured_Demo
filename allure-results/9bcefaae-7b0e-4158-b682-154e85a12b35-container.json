@@ -1,0 +1,1 @@
+{"uuid":"9bcefaae-7b0e-4158-b682-154e85a12b35","name":"testcases.getListCustomer","children":["0ea7e184-0037-4b2b-864e-bcf79c9ba303"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1649930554026,"stop":1649930554520}],"afters":[],"links":[],"start":1649930554006,"stop":1649930556531}

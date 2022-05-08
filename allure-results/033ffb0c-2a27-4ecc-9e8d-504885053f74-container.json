@@ -1,0 +1,1 @@
+{"uuid":"033ffb0c-2a27-4ecc-9e8d-504885053f74","name":"testcases.GenTokenAuth","children":["32bc6582-0cb9-4f69-b3c3-634e4f46b708"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1649947531375,"stop":1649947532145}],"afters":[],"links":[],"start":1649947531344,"stop":1649947535509}
