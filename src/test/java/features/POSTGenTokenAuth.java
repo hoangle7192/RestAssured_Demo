@@ -39,7 +39,7 @@ public class POSTGenTokenAuth {
                 .header("X-Rootvia-Client-Id", "sys_admin")
                 .when()
                 .body(genToken)
-                .post("http://192.168.68.124:8080/api/1/auth/token/issue");
+                .post("http://10.20.22.52:8080/api/1/auth/token/issue");
 
         //verify kết quả trả về
         res.then().statusCode(200);
@@ -54,10 +54,10 @@ public class POSTGenTokenAuth {
 
         System.out.println("body: " + res.body());
 
+
         String bodyAsString = res.getBody().asString();
         System.out.println("Response body is: " + bodyAsString);
         Assert.assertTrue(bodyAsString.contains("accessToken"));
-
         // Lấy data từ response
         //JsonPath jsonPathEvaluator = res.jsonPath();
         String accessToken = res.jsonPath().get("accessToken");

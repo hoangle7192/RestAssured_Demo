@@ -1,5 +1,6 @@
 package models;
 
+import datatest.GenToken.getDataToken;
 import lombok.Data;
 
 @Data
@@ -9,8 +10,10 @@ public class GenToken {
     private String password;
 
     private GenToken() {
-        this.username = "reblitz";
-        this.password = "reblitz";
+        getDataToken getData = getDataToken.getDataJson();
+        //assert getData != null;
+        this.username = getData.getUsername();
+        this.password = getData.getPassword();
     }
 
     public static GenToken getInstanceGenToken() {
